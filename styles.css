@@ -1,0 +1,108 @@
+.title {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9qtwGOp4L65hUU-MDdA4_Sihra6YKg66Phg&usqp=CAU");
+  background-size: cover;
+}
+
+.navigation {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  border: 0.5px solid black;
+  box-shadow: 0 5px 15px rgba(0.5, 0.5, 0.5, 0.2);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: hsl(204, 45%, 2%);
+}
+
+.container {
+  display: flex;
+  border: 1px solid black;
+  height: 85vh;
+}
+
+.left,
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.divider {
+  width: 2px;
+  background-color: black;
+}
+
+.container h2 {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.simple {
+  text-transform: uppercase;
+  background: transparent;
+  color: #222;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  font-weight: 700;
+  transition: all 0.3s linear;
+
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  border: 4px black solid;
+}
+.hex {
+  text-transform: uppercase;
+  background: transparent;
+  color: #222;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  font-weight: 700;
+  transition: all 0.3s linear;
+
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  border: 4px black solid;
+}
+
+.simple:hover {
+  color: #fff;
+  background: #222;
+}
+.hex:hover {
+  color: #fff;
+  background: #222;
+}
+.color {
+  color: hsl(205, 78%, 60%);
+}
+body {
+  background: #f0f0f0;
+}
